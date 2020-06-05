@@ -6,7 +6,7 @@ namespace TemplateMethodExample
   public class EnemyAttack2 : TemplateMethod
   {
     [SerializeField]
-    GameObject target;
+    GameObject target = null;
 
     protected override void RequiredOperation1()
     {
